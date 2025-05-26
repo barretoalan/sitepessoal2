@@ -1,0 +1,100 @@
+body {
+    font-family: 'Comic Sans MS', 'cursive', 'fantasy', sans-serif;
+    background-color: #f0f8ff; /* AliceBlue - a light, friendly blue */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff; /* White background for the content area */
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 80%;
+    max-width: 600px; /* Max width for better readability on large screens */
+}
+
+h1 {
+    color: #ff6347; /* Tomato red - bright and cheerful */
+    font-size: 2.5em; /* Large title */
+    margin-bottom: 20px;
+}
+
+input[type="number"], button {
+    padding: 15px;
+    margin: 10px 5px;
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #ffd700; /* Gold border */
+    font-size: 1.2em; /* Larger font for easy interaction */
+    box-sizing: border-box;
+}
+
+input[type="number"] {
+    width: calc(60% - 10px); /* Adjust width considering margin */
+}
+
+button {
+    background-color: #32cd32; /* LimeGreen */
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: calc(40% - 10px); /* Adjust width considering margin */
+}
+
+button:hover {
+    background-color: #228b22; /* ForestGreen - darker shade on hover */
+}
+
+#romanResult {
+    background-color: #fffacd; /* LemonChiffon - light yellow for result */
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.3em;
+    font-weight: bold;
+    min-height: 30px;
+    border: 2px dashed #ffb6c1; /* LightPink border */
+}
+
+#symbolExplanation {
+    background-color: #e0ffff; /* LightCyan - light blue for explanation */
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    text-align: left; /* Explanations might be better left-aligned */
+    line-height: 1.6;
+    border: 2px dashed #add8e6; /* LightBlue border */
+}
+
+#symbolExplanation br {
+    margin-bottom: 10px; /* Add space after each <br> */
+    content: "";
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    input[type="number"], button {
+        font-size: 1em;
+        padding: 12px;
+        display: block; /* Stack input and button on smaller screens */
+        width: 90%; /* Make them take more width */
+        margin: 10px auto; /* Center them */
+    }
+    .container {
+        width: 95%;
+        padding: 15px 20px;
+    }
+}
