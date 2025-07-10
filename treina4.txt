@@ -2,6 +2,7 @@ olaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 olaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa4
 
+<<<<<<< HEAD
 trenamento 090720250000000000000000000000000000000
 
 
@@ -13,3 +14,6 @@ trenamento 090720250000000000000000000000000000000
 
 
 alan barreto
+=======
+novo usuario
+>>>>>>> 12c5f68e598f459d2357a8d28d4b7a6bbb5291c8
